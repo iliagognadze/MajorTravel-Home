@@ -1,0 +1,950 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #f9f9f9;
+}
+
+.poppins{
+	font-family: 'Poppins', sans-serif;
+}
+
+.offer-section{
+	margin-bottom: 90px;
+}
+
+.container{
+
+}
+
+.top-header{
+	background-color: white;
+}
+
+.nav-item{
+	font-size: 22px;
+	font-weight: bold;
+	color: #124ea2;
+	margin: 0px 5px;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.questrial{
+	font-family: 'Questrial', sans-serif;
+}
+
+.booking{
+	margin: 0px 25px;
+}
+
+.booking p{
+	margin-left: 3px;
+	color: black;
+}
+
+.login p{
+	font-weight: 600;
+	color: #124ea2;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-link{
+	padding: 0px 5px !important;
+	color: white;
+	margin: 0px 10px;
+}
+
+.navbar-toggler-icon img{
+	width: 100%;
+}
+
+/*.first-link{
+	padding-left: 0px !important;
+	color: white;
+}*/
+
+.real-nav li{
+	margin: 0;
+}
+
+.real-nav-fluid{
+	background-color: #124ea2;
+}
+
+.real-nav a{
+	font-weight: normal;
+	color: white;
+	font-size: 18px;
+	transition: ease 0.5s all;
+}
+
+.real-nav a:hover{
+	font-weight: normal;
+	color: #eb008c;
+	font-size: 18px;
+}
+
+.formNav-link{
+	color: #535353;
+	font-weight: bold;
+}
+
+.formNav-link:hover{
+	color: #124ea2;
+	font-weight: bold;
+}
+
+.formNav-link:active{
+	color: #eb008c;
+	font-weight: bold;
+}
+
+.form-ul{
+	padding: 0;
+}
+
+input[type="text"] {
+	/*padding-left: 40px;*/
+	background-color: white;
+}
+
+.inside-placeholder{
+	position: absolute;
+	transform: translate(15px, 10px);
+}
+
+.input-group-text{
+	background-color: white;
+}
+
+.forms{
+	background-color: white;
+	padding: 25px 30px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.05);
+	position: relative;
+	top: -30px;
+}
+
+.input-title{
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.column-line{
+	margin-bottom: 40px;
+}
+
+.flights{
+
+}
+
+.left-first{
+	padding-left: 0;
+}
+
+.right-last{
+	padding-right: 0;
+}
+
+.check-title{
+	margin: 0;
+	margin-left: 13px;
+	font-weight: 600;
+}
+
+#checkZone2{
+	margin-left: 30px;
+}
+
+.button{
+}
+
+.flight-btn, .flight-btn:hover{
+	color: white;
+	text-decoration: none;
+	padding: 15px 40px;
+	background-color: #124ea2;
+	border-radius: 35px;
+}
+
+.carousel-item{
+	height: 60vh;
+	width: 100%;
+}
+
+.slide1{
+	top: -100px;
+	position: relative;
+}
+
+.fixed{
+	height: 460px;
+	background-image: url(../images/slide1.png);
+	background-size: cover;
+	width: 100%;
+	padding: 50px 0px;
+	background-position: center; 
+	padding-bottom: 80px;
+}
+
+.fixed2{
+	height: 670px;
+	background-image: url(../images/fixed2.png);
+	background-size: cover;
+	width: 100%;
+	padding: 50px 0px;
+	background-position: center; 
+	padding-bottom: 80px;
+}
+
+
+.stats{
+	top: 200px;
+}
+
+.airlines-text{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	 text-shadow: 2px 2px #000;
+}
+
+.holiday-title{
+	font-size: 33px;
+	color: #124ea2;
+	margin: 25px 0px;
+}
+
+.redletter{
+	color: #eb008c;
+}
+
+.offer{
+	/*-webkit-box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);
+	box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);*/
+
+}
+
+.offer-image{
+ 	width: 100%;
+ 	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+}
+
+.offer-box{
+	padding: 15px;
+	background-color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px; 
+}
+
+.loc-content p{
+	margin-left: 10px;
+	color: #535353;
+}
+
+.loc-title{
+	font-weight: bold;
+	color: #535353;
+}
+
+.loc-description{
+	margin: 10px 0;
+}
+
+.description{
+	margin: 15px 0;
+}
+
+.description-title{
+	color: #535353;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.description-article{
+	font-size: 13px;
+	color: #535353;
+
+}
+
+.desc-icons{
+	margin: 10px 0;
+}
+
+.desc-icons img:last-child{
+	margin-left: 5px;
+}
+
+.book-offer{
+	font-size: 15px;
+	color: #eb008c;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.book{
+	color: #535353;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.by{
+	color: #124ea2;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.offer-footer{
+	margin-top: 20px;
+}
+
+.offer-valid{
+	margin: 0;
+	font-size: 14px;
+	color: black;
+}
+
+
+
+.sanctuary-title{
+	color: white;
+	font-size: 42px;
+	font-weight: 600;
+}
+
+.fullOffer-Link{
+	color: black;
+}
+
+.fullOffer-Link:hover{
+	color: #eb008c;
+}
+
+.fullOffer-Link:active{
+	color: #124ea2;
+}
+
+.sanc-underline{
+	border: 2px solid white;
+	width: 50%;
+}
+
+.from{
+	width: 470px;
+}
+
+.bali{
+	width: 470px;
+	margin:0;
+}
+
+.viceroy{
+	color: white;
+	font-size: 50px;
+}
+
+.bigstars{
+	width: 150px;
+}
+
+.bali-loc{
+	margin-top: 10px;
+}
+
+.bali-loc p{
+	font-size: 22px;
+	color: white;
+	margin-left: 10px;
+}
+
+.fixed2Footer-box{
+	color: white;
+	font-size: 20px;
+}
+
+.fixed2-airways{
+	width: 135px;
+}
+
+.bestFlight-title{
+	font-size: 33px;
+	color: #124ea2;
+	margin: 90px 0px 50px 0;
+}
+
+.offer-title{
+	font-size: 26px;
+	color: #124ea2;
+}
+
+.redline{
+	display: block;
+	border: 1px solid #eb008c;
+	margin: 10px 0px 20px 0px;
+}
+
+.flight-offer{
+	margin: 10px 0px;
+}
+
+.flightClassName{
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.locAndName{
+	margin-left: 12px;
+}
+
+.flightOfferLocation{
+	font-size: 18px;
+	color: #535353;
+}
+
+.priceText{
+	font-size: 23px;
+	color: #124ea2;
+	font-weight: 500;
+}
+
+.offerContainer{
+	padding: 25px 15px;
+	background-color: white;
+	padding-bottom: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);
+	box-shadow: 0px 0px 7px 0px rgba(237,237,237,1);
+	margin: 0px 10px;
+}
+
+.offerContainer:first-child{
+	margin-left: 0px;
+}
+
+.offerContainer:last-child{
+	margin-right: 0px;
+}
+
+.offerUnderLine{
+	display: block;
+	border: 1px solid auto;
+	margin: 0;
+	padding: 0;
+}
+
+.only-businessClass{
+	margin: 0;
+}
+
+.offerRow{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.fixed3{
+	margin: 40px 0px;
+	height: 700px;
+	background-image: url(../images/fixed3.svg);
+	background-size: cover;
+	width: 100%;
+	padding: 50px 0px;
+	background-position: center; 
+	padding-bottom: 80px;
+}
+
+.newDestination-title{
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+
+.newDestination{
+	padding: 0;
+}
+
+.newDestination-box{
+	padding: 0;
+}
+
+.destinationUnderline{
+	display: block;
+	border: 1px solid white;
+	margin: 10px 0px;
+	padding: 0;
+	width: 50%;
+}
+
+.blogLink{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack1.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+.blogBox{
+	padding: 40px;
+	position: absolute;
+	bottom: 0;
+}
+
+.latestBlogBox a{
+	padding: 0;
+}
+
+
+.latestBlogBox {
+	margin: 0;
+}
+
+.latestBlog{
+	padding: 0;
+}
+
+.blogTitle{
+	color: white;
+	font-size: 26px;
+	width: 320px;
+	font-weight: bold;
+}
+
+#blogLink2{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack2.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink3{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack3.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink4{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack4.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink5{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack5.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink6{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack6.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink7{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack7.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+#blogLink8{
+	width: 480px;
+	height: 340px;
+	background-image: url(../images/blogBack8.svg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+
+.blogTitleUnderline{
+	display: block;
+	border: 2px solid #eb008c;
+	margin: 10px 0px;
+	padding: 0;
+	width: 50%;
+}
+
+.blogArticle{
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.whyChooseUs{
+	background-color: #124ea2;
+	padding: 50px 0px;
+}
+
+.whyChooseUs-title{
+	color: white;
+	font-weight: bold;
+}
+
+.whyChooseUsBox-title{
+	color: white;
+	font-weight: 600;
+	font-size: 32px;
+	margin: 10px 0px;
+}
+
+.WhyChooseUsBox-article{
+	color: white;
+	font-size: 20px;
+}
+
+.whyChooseUsSection{
+	margin-top: 30px;
+}
+
+
+.fixed4{
+	height: 540px;
+	background-image: url(../images/fixed4.svg);
+	background-size: cover;
+	width: 100%;
+	background-position: center; 
+}
+
+.benefits-text{
+	color: white;
+	font-size: 33px;
+	margin: 250px 0px;
+}
+
+.benefitsUnderline{
+	display: block;
+	border: 0.03rem solid white;
+	margin: 10px 0px;
+	padding: 0;
+	width: 10%;
+}
+
+.benefits-li{
+	font-size: 18px;
+	color: white;
+}
+
+.partners-section{
+	padding: 50px 0px;
+}
+
+.partners-title{
+	font-size: 33px;
+	color: #124ea2;
+	margin: 50px 0px 0px;
+}
+
+.partnersBox-title{
+	color: #999999;
+	font-size: 22px;
+	margin: 40px 0px;
+}
+
+.airlinesPartners-title{
+	margin: 0px 0px 40px 0px;
+}
+
+footer{
+	background-color: #061c37;
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+
+.footer{
+	background-color: #061c37;
+}
+
+.destination-title{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.destinations{
+	color: white;
+	width: 75%;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.terms-box ul{
+	padding: 0;
+}
+
+.terms-box li img{
+	color: white;
+	margin: 0px 5px;
+}
+
+.terms-link{
+	padding: 0px 10px;
+	color: white;
+}
+
+.terms-link:active{
+	padding: 0px 10px;
+	color: #eb008c;
+}
+
+.terms-box img{
+	width: 50px;
+}
+
+.terms-box{
+
+}
+
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.holidayNav{
+	background-image: url(../images/holidayNav-back.svg);
+	padding: 20px 25px;
+}
+
+.categoriesNav{
+	background-image: url(../images/categoriesNav-back.svg);
+	padding: 20px 25px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding: 15px 10px;
+  
+}
+
+.sidebar a img{
+  margin-right: 15px;
+}
+
+.holidayOffer-bottom{
+	position: absolute;
+	bottom: 0;
+	z-index: 100000;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px 10px;
+}
+
+.categoriesOffer-bottom{
+	position: absolute;
+	bottom: 0;
+	z-index: 100000;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px 10px;
+}
+
+#pastanaCarltonMadeira-holiday{
+	background-image: url(../images/holidayMadeira.png);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#ubudHotel-holiday{
+	background-image: url(../images/ubudHotel.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#ShangriLa-holiday{
+	background-image: url(../images/shangriLa.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#orientalHotel-holiday{
+	background-image: url(../images/orientalHotel.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Cendrawasih-holiday{
+	background-image: url(../images/cendrawasihHotel.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Sakura-holiday{
+	background-image: url(../images/sakuraHotel.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Doha-holidayCategory{
+	background-image: url(../images/categoryDoha.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Istambul-holidayCategory{
+	background-image: url(../images/istambulCategory.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#LosAngeles-holidayCategory{
+	background-image: url(../images/categoryLosAngeles.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Hongkong-holidayCategory{
+	background-image: url(../images/categoryHongkong.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+#Johannesburg-holidayCategory{
+	background-image: url(../images/categoryJohannesburg.svg);
+	width: 300px;
+	height: 202px;
+	padding: 0;
+}
+
+
+.categoriesAirway-icon{
+	background-color: white;
+	margin: 0 !important;
+}
+
+.moon-icon{
+	margin-right: 4px !important;
+}
+
+.nightButton{
+	background-color: #061c37;
+	padding: 2px 10px;
+	border-radius: 20px;
+}
+
+.holidayOffer-Title{
+	color: #535353;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.categoriesOffer-Title{
+	color: #535353;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.holidayOffer-Loc{
+	color: #535353;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+@media (min-width: 768px){
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 33.333333%;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
