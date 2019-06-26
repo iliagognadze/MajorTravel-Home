@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<defs>
+		<image width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAh0lEQVRIS2OsXv7hPwMJoDVSgJEE5QyMw8MCRob/jS2Rgg0gr9csf9/wn4GxHsTGJk5WEA19C0hJFWQFEakW1Cx/78DAwADCBAFZyRQ5IRCyAWzBoItkkoOIVB+QHESEwhFZHpSKRqAFNI+DoW8BJakI2fcwc5ArMYqLilELMKIHPScPeBABAKLmQDqOetfpAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Background">
+		<use id="Group: 1 object" href="#img1" x="0" y="0" />
+	</g>
+</svg>
